@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Presentacion", "AppVentaCompra\Presentacion.vbproj", "{EA593CD7-4868-4B3D-9860-E97465FFDCFB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C9485E6B-04EA-4C7E-B938-11AA498B9E12} = {C9485E6B-04EA-4C7E-B938-11AA498B9E12}
+		{5E9681A2-7743-402D-8D5E-27E3F25CEE92} = {5E9681A2-7743-402D-8D5E-27E3F25CEE92}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AccesoDatos", "AccesoDatos\AccesoDatos.vbproj", "{D77C1FBF-9C6A-4EA2-BBEE-A2440FC3DE1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2C409D9F-B6AE-4E6C-B076-37AE962D01E2} = {2C409D9F-B6AE-4E6C-B076-37AE962D01E2}
+		{5E9681A2-7743-402D-8D5E-27E3F25CEE92} = {5E9681A2-7743-402D-8D5E-27E3F25CEE92}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Entidad", "Entidad\Entidad.vbproj", "{5E9681A2-7743-402D-8D5E-27E3F25CEE92}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Interfaz", "Interfaz\Interfaz.vbproj", "{2C409D9F-B6AE-4E6C-B076-37AE962D01E2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5E9681A2-7743-402D-8D5E-27E3F25CEE92} = {5E9681A2-7743-402D-8D5E-27E3F25CEE92}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Logica", "Logica\Logica.vbproj", "{C9485E6B-04EA-4C7E-B938-11AA498B9E12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2C409D9F-B6AE-4E6C-B076-37AE962D01E2} = {2C409D9F-B6AE-4E6C-B076-37AE962D01E2}
+		{5E9681A2-7743-402D-8D5E-27E3F25CEE92} = {5E9681A2-7743-402D-8D5E-27E3F25CEE92}
+		{D77C1FBF-9C6A-4EA2-BBEE-A2440FC3DE1D} = {D77C1FBF-9C6A-4EA2-BBEE-A2440FC3DE1D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA593CD7-4868-4B3D-9860-E97465FFDCFB}.Debug|x86.ActiveCfg = Debug|x86
+		{EA593CD7-4868-4B3D-9860-E97465FFDCFB}.Debug|x86.Build.0 = Debug|x86
+		{EA593CD7-4868-4B3D-9860-E97465FFDCFB}.Release|x86.ActiveCfg = Release|x86
+		{EA593CD7-4868-4B3D-9860-E97465FFDCFB}.Release|x86.Build.0 = Release|x86
+		{D77C1FBF-9C6A-4EA2-BBEE-A2440FC3DE1D}.Debug|x86.ActiveCfg = Debug|x86
+		{D77C1FBF-9C6A-4EA2-BBEE-A2440FC3DE1D}.Debug|x86.Build.0 = Debug|x86
+		{D77C1FBF-9C6A-4EA2-BBEE-A2440FC3DE1D}.Release|x86.ActiveCfg = Release|x86
+		{D77C1FBF-9C6A-4EA2-BBEE-A2440FC3DE1D}.Release|x86.Build.0 = Release|x86
+		{5E9681A2-7743-402D-8D5E-27E3F25CEE92}.Debug|x86.ActiveCfg = Debug|x86
+		{5E9681A2-7743-402D-8D5E-27E3F25CEE92}.Debug|x86.Build.0 = Debug|x86
+		{5E9681A2-7743-402D-8D5E-27E3F25CEE92}.Release|x86.ActiveCfg = Release|x86
+		{5E9681A2-7743-402D-8D5E-27E3F25CEE92}.Release|x86.Build.0 = Release|x86
+		{2C409D9F-B6AE-4E6C-B076-37AE962D01E2}.Debug|x86.ActiveCfg = Debug|x86
+		{2C409D9F-B6AE-4E6C-B076-37AE962D01E2}.Debug|x86.Build.0 = Debug|x86
+		{2C409D9F-B6AE-4E6C-B076-37AE962D01E2}.Release|x86.ActiveCfg = Release|x86
+		{2C409D9F-B6AE-4E6C-B076-37AE962D01E2}.Release|x86.Build.0 = Release|x86
+		{C9485E6B-04EA-4C7E-B938-11AA498B9E12}.Debug|x86.ActiveCfg = Debug|x86
+		{C9485E6B-04EA-4C7E-B938-11AA498B9E12}.Debug|x86.Build.0 = Debug|x86
+		{C9485E6B-04EA-4C7E-B938-11AA498B9E12}.Release|x86.ActiveCfg = Release|x86
+		{C9485E6B-04EA-4C7E-B938-11AA498B9E12}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

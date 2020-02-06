@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA593CD7-4868-4B3D-9860-E97465FFDCFB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AppVentaCompra.My.MyApplication</StartupObject>
+    <RootNamespace>AppVentaCompra</RootNamespace>
+    <AssemblyName>AppVentaCompra</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AppVentaCompra.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AppVentaCompra.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accesorio.Designer.vb">
+      <DependentUpon>Accesorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accesorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.vb">
+      <DependentUpon>Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compra.Designer.vb">
+      <DependentUpon>Compra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Compra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleCompra.Designer.vb">
+      <DependentUpon>DetalleCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleVenta.Designer.vb">
+      <DependentUpon>DetalleVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historial.Designer.vb">
+      <DependentUpon>Historial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Historial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Parte.Designer.vb">
+      <DependentUpon>Parte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor.Designer.vb">
+      <DependentUpon>Proveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio.Designer.vb">
+      <DependentUpon>Servicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validaciones.vb" />
+    <Compile Include="Venta.Designer.vb">
+      <DependentUpon>Venta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Venta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Accesorio.resx">
+      <DependentUpon>Accesorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compra.resx">
+      <DependentUpon>Compra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleCompra.resx">
+      <DependentUpon>DetalleCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleVenta.resx">
+      <DependentUpon>DetalleVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historial.resx">
+      <DependentUpon>Historial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parte.resx">
+      <DependentUpon>Parte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedor.resx">
+      <DependentUpon>Proveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio.resx">
+      <DependentUpon>Servicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta.resx">
+      <DependentUpon>Venta.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidad\Entidad.vbproj">
+      <Project>{5E9681A2-7743-402D-8D5E-27E3F25CEE92}</Project>
+      <Name>Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logica\Logica.vbproj">
+      <Project>{C9485E6B-04EA-4C7E-B938-11AA498B9E12}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
